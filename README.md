@@ -1,73 +1,74 @@
-# Welcome to your Lovable project
+🌊 Ocean Sentinel
 
-## Project info
+A Smart Coastal Surveillance and Fish Attraction System
 
-**URL**: https://lovable.dev/projects/86690d82-7180-4454-a78a-1dcffe4832c6
+🌐 Overview
 
-## How can I edit this code?
+Ocean Sentinel is an innovative, low-cost, solar-powered system designed to assist coastal fishermen. It combines underwater acoustic technology to attract fish with an intelligent GPS-based border alert system that notifies boat owners when they cross marine boundaries. The system enhances fishing efficiency, promotes sustainability, and improves maritime safety.
 
-There are several ways of editing your application.
+⚙️ Key Features
 
-**Use Lovable**
+🎣 Fish Attraction Module: Emits low-frequency underwater sounds to attract specific fish species.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/86690d82-7180-4454-a78a-1dcffe4832c6) and start prompting.
+🛰️ Border Alert System: GPS-enabled tracking warns when a boat crosses restricted or international borders.
 
-Changes made via Lovable will be committed automatically to this repo.
+☀️ Solar-Powered Design: Ensures continuous, eco-friendly operation using solar panels and rechargeable batteries.
 
-**Use your preferred IDE**
+💧 Waterproof Hardware: Durable and weather-resistant for coastal and marine use.
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+📡 Optional Dashboard: Real-time monitoring and alerts through a web or mobile interface.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+💡 Motivation
 
-Follow these steps:
+Many coastal fishermen face reduced catches, safety risks, and accidental border violations due to lack of modern tools. Ocean Sentinel addresses these issues by merging sustainable fish attraction and intelligent navigation alerts into one compact device—supporting livelihoods and marine conservation.
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+🧰 Technologies Used
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+Hardware: Arduino/ESP32 microcontroller, GPS module, acoustic transducer, solar panel, Li-ion battery
 
-# Step 3: Install the necessary dependencies.
-npm i
+Software: Embedded C/C++ for control and GPS logic
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+Optional Dashboard: Flask or React.js for monitoring and data visualization
 
-**Edit a file directly in GitHub**
+Mechanical Design: 3D-printed waterproof housing with marine-grade materials
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+🗂️ Project Structure
+/hardware      → Circuit diagrams, PCB layouts, and component list  
+/firmware      → Arduino/ESP32 code for fish attraction & GPS alerts  
+/mechanics     → 3D models and waterproof casing design  
+/dashboard     → (Optional) Web or mobile monitoring interface  
+/docs          → Research, manuals, and deployment guides  
 
-**Use GitHub Codespaces**
+🚀 Getting Started
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+Clone the repository:
 
-## What technologies are used for this project?
+git clone https://github.com/Yuthishtra/coastal-eyes-wide.git
 
-This project is built with:
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+Build hardware according to the /hardware and /mechanics documents.
 
-## How can I deploy this project?
+Flash firmware to the microcontroller using Arduino IDE or PlatformIO.
 
-Simply open [Lovable](https://lovable.dev/projects/86690d82-7180-4454-a78a-1dcffe4832c6) and click on Share -> Publish.
+Calibrate GPS boundaries and test fish-attracting acoustic output.
 
-## Can I connect a custom domain to my Lovable project?
+Mount the device on a boat and monitor alerts or dashboard readings.
 
-Yes, you can!
+🧭 Use Case
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+Attract target fish species using acoustic pulses.
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+Get instant GPS alerts if the boat crosses safe fishing zones.
+
+Ensure sustainable and safe fishing operations with solar-powered autonomy.
+
+👥 Contributors
+
+Yuthishtra Bose – Project Lead, Hardware & Firmware Development
+
+Shobika – Research, Mechanical Design & Documentation
+
+📜 License
+
+This project is open-source under the MIT License
+. Contributions and improvements are welcome!
