@@ -1,4 +1,6 @@
 🌊 Ocean Sentinel
+<img width="1873" height="926" alt="image" src="https://github.com/user-attachments/assets/b49f07a2-d836-4bdb-8174-314a0bc9ea72" />
+
 
 A Smart Coastal Surveillance and Fish Attraction System
 
