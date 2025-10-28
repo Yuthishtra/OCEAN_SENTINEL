@@ -54,6 +54,7 @@ Calibrate GPS boundaries and test fish-attracting acoustic output.
 
 Mount the device on a boat and monitor alerts or dashboard readings.
 
+
 🧭 Use Case
 
 Attract target fish species using acoustic pulses.
