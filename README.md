@@ -1,6 +1,4 @@
 🌊 Ocean Sentinel
-<img width="1873" height="926" alt="image" src="https://github.com/user-attachments/assets/b49f07a2-d836-4bdb-8174-314a0bc9ea72" />
-
 
 A Smart Coastal Surveillance and Fish Attraction System
 
@@ -33,7 +31,9 @@ Software: Embedded C/C++ for control and GPS logic
 Optional Dashboard: Flask or React.js for monitoring and data visualization
 
 Mechanical Design: 3D-printed waterproof housing with marine-grade materials
-
+Our Dashboard:
+<img width="1906" height="928" alt="Screenshot 2025-10-28 075952" src="https://github.com/user-attachments/assets/556a37a3-1539-4cdb-980a-a2ad39c8ceb4" />
+<img width="1873" height="926" alt="Screenshot 2025-10-28 080003" src="https://github.com/user-attachments/assets/0db82a9c-df55-4ede-aad9-e2334839f366" />
 🗂️ Project Structure
 /hardware      → Circuit diagrams, PCB layouts, and component list  
 /firmware      → Arduino/ESP32 code for fish attraction & GPS alerts  
